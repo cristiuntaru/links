@@ -1,0 +1,49 @@
+html{
+    background: black url(Images/Tinypng.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+body {
+    display: block;
+    place-items: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px ;
+    line-height: 1.5em;
+}
+@media (min-width: 500px) {body{display: grid; } }
+
+.Container {
+    
+    background: rgba(79, 109, 245, 0.8);
+    padding: 1rem;
+    border-radius: 2rem;
+    line-height: 1.5em;
+}
+@media (min-width: 300px) { .Container{margin: 2vh;; } }
+
+
+  .Avatar { display: block; margin: 0 1em 1em 0;}
+  @media (min-width: 380px) { .Avatar {float: left;} }
+  .TitlulPaginii {
+      display: block;
+      margin 0;
+      font-size: (2rem, 6vw, 4rem);
+      text-align: center;
+  }
+ 
+  .DescrierePrincipala {
+      text-align: center;
+      font-size: 20px;
+  }
+
+
+ .ListaLinkuri { display: block; margin: 0; padding 0; }
+   .ListaItem { display: block; margin 0; padding 0; border-bottom: 1px solid #fff; border-top: 1px solid #fff;}
+     .ListaLink { display: block; padding 0.5em; color: #fff; text-decoration: none; }
+     .ListaLink:hover {background: white; color: black;}
+       .ListaTitlu, .ListaText { display: block; margin: 0; padding: 0; font-size: 1.5em; line-height: 1.5em;}
+       .ListaText {display: block; font-size: 1em; line-height: 2em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;} 
+
+       @media (min-width: 1200px) { .ListaLinkuri {display: grid; } }
